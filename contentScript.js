@@ -1,9 +1,10 @@
 let title = document.getElementsByTagName('a');
-
-
 for(tit of title){
-  tit.style['background-color'] = '#FF00FF'
+  if(tit.href.includes('youtube.com/watch?v=')){
+    videoLink = tit.href
+    console.log(videoLink)
+  }
 }
-for(tit of title){
-  console.log(tit.href)
-}
+chrome.runtime.sendMessage({greeting: "hello"}, function(response) {
+  console.log(response.farewell);
+});
