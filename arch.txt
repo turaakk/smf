@@ -1,0 +1,24 @@
+youtube.com loaded -> contentScript sends loaded feed as a list to a storage 
+list of feeds is stored (deleted)
+
+
+storage = {
+    time1 : [
+        videoLink1,
+        videoLink2,
+        videoLink3,
+        videoLink4,
+        videoLink5,
+        (updated as videos load)...
+    ],
+    time2 : [
+        videoLink1,
+        videoLink2,
+        videoLink3,
+        videoLink4,
+        videoLink5,
+    ],
+}
+
+THE FEED PAGE
+videos from youtube feed
