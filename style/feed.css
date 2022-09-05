@@ -1,12 +1,17 @@
+.body {
+    margin: 0px;
+
+}
+
 .container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 260px 1fr;
 }
 
-.feed-list {
-    background-color: black;
+#feed-list {
+    background-color: aliceblue;
 }
 
-.feed-view {
-    background-color: red;
+#feed-view {
+    background-color: azure;
 }
